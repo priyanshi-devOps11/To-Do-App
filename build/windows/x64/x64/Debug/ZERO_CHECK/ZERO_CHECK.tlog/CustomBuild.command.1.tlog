@@ -1,0 +1,10 @@
+^D:\GITHUB\TO_DO_APP\BUILD\WINDOWS\X64\CMAKEFILES\69B251E37BBEB9AD9B532573A5AB342A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Github/to_do_app/windows -BD:/Github/to_do_app/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Github/to_do_app/build/windows/x64/to_do_app.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
