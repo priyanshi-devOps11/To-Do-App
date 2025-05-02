@@ -1,3 +1,12 @@
+# Flutter/Dart build files
+.dart_tool/
+build/
+flutter_*.png
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.idea/
+
 # VS Code settings
 .vscode/
 
