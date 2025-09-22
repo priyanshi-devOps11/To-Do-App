@@ -1,16 +1,43 @@
-# to_do_app
+# ✅ To Do App
 
-A new Flutter project.
+A Flutter-based mobile application to manage daily tasks efficiently.  
+This app helps users create, update, and track their to-do lists with ease.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- ➕ Add new tasks  
+- ✏️ Edit or update tasks  
+- ✅ Mark tasks as complete  
+- 🗑️ Delete tasks  
+- 🕒 Track pending vs completed tasks  
+- 📱 Cross-platform support (Android, iOS, Web, Desktop)  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+- Install [Flutter SDK](https://docs.flutter.dev/get-started/install)  
+- Install [Dart](https://dart.dev/get-dart)  
+- Android Studio or VS Code  
+
+### Installation
+Clone the repository:
+git clone https://github.com/priyanshi-devOps11/to_do_app.git
+cd to_do_app
+install dependencies
+flutter pub get
+run the app
+flutter run
+
+👩‍💻 Author
+
+Priyanshi Srivastava
+GitHub: @priyanshi-devOps11
+LinkedIn: 
+Email: (srivastavapriyanshi8081@gmail.com)
+
+📜 License
+
+This project is licensed under the MIT License.
